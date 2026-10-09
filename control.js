@@ -58,3 +58,15 @@ if (punyaTiket && punyaUndangan) {
 else { 
     console.log("Tidak boleh Masuk"); 
 }
+
+
+let angka = [10, 15, 20, 25];
+if (angka[0] % 2 === 0) {
+    console.log("Genap");
+} else { 
+    console.log("Ganjil"); 
+}
+
+
+
+
