@@ -48,25 +48,30 @@
 //     console.log("C");
 // }
 
-let punyaTiket = false;
-let punyaUndangan = true;
-if (punyaTiket && punyaUndangan) {
-    console.log("Tamu VIP");
-} else if (punyaTiket || punyaUndangan) {
-    console.log("Tamu Biasa");
-} 
-else { 
-    console.log("Tidak boleh Masuk"); 
-}
+// let punyaTiket = false;
+// let punyaUndangan = true;
+// if (punyaTiket && punyaUndangan) {
+//     console.log("Tamu VIP");
+// } else if (punyaTiket || punyaUndangan) {
+//     console.log("Tamu Biasa");
+// } 
+// else { 
+//     console.log("Tidak boleh Masuk"); 
+// }
 
 
-let angka = [10, 15, 20, 25];
-if (angka[0] % 2 === 0) {
-    console.log("Genap");
+// let angka = [10, 15, 20, 25];
+// if (angka[0] % 2 === 0) {
+//     console.log("Genap");
+// } else { 
+//     console.log("Ganjil"); 
+// }
+
+let nama = ["Andi", "Budi", "Citra"];
+if (nama[0] === "Andi") {
+    console.log("Nama ditemukan");
 } else { 
-    console.log("Ganjil"); 
+    console.log("Tidak ditemukan"); 
 }
-
-
 
 
