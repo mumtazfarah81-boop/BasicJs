@@ -1,0 +1,3 @@
+function belajar() {
+ console.log("Learning!");
+}

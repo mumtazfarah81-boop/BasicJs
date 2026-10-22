@@ -29,11 +29,26 @@
 // }
 
 
-let nilai = [80, 65, 90, 55, 75];
-for (let i = 0; i < nilai.length; i++) {
-    if (nilai[i] >= 75) {
-        console.log(nilai[i] + " - Lulus");
-    } else {
-        console.log(nilai[i] + " - Tidak Lulus");
-    }
+// let nilai = [80, 65, 90, 55, 75];
+// for (let i = 0; i < nilai.length; i+=2) {
+//     if (nilai[i] >= 75) {
+//         console.log("nilainya" + nilai[i] + " - Lulus");
+//     } else {
+//         console.log("nilainya" + nilai[i] + " - Tidak Lulus");
+//     }
+// }
+
+
+let angka = [12, 7, 20, 15, 8, 3, 14, 9];
+
+for (let i = 0; i < angka.length; i++) {
+  let num = angka[i];  
+  // 1. Cek Genap atau Ganjil menggunakan modulus (% 2)
+  let statusGenapGanjil = (num % 2 === 0) ? "Genap" : "Ganjil";
+
+  // 2. Cek apakah angka lebih besar/sama dengan 10 atau kurang dari 10
+  let statusPembanding = (num >= 10) ? ">= 10" : "< 10";  
+  // 3. Cetak hasil sesuai format
+  console.log(`${num} - ${statusGenapGanjil} - ${statusPembanding}`);
 }
+
