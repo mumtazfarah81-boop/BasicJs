@@ -24,3 +24,10 @@ console.log(`${namanya} mendapatkan nilai ${nilainya}. Status: ${status}`)
 console.log(`Namanya: ${namanya}
 Kelasnya: ${kelas}
 Nilainya: ${nilainya}`)
+
+const siswa = {
+    namanya: "Andi",
+    Kelas: "X ICT",
+    nilai: 80
+}
+console.log(`nama: ${siswa.namanya} kelas: ${siswa.Kelas} nilainya: ${nilai}`)

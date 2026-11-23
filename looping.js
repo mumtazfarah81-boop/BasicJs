@@ -39,16 +39,23 @@
 // }
 
 
-let angka = [12, 7, 20, 15, 8, 3, 14, 9];
+// let angka = [12, 7, 20, 15, 8, 3, 14, 9];
 
-for (let i = 0; i < angka.length; i++) {
-  let num = angka[i];  
-  // 1. Cek Genap atau Ganjil menggunakan modulus (% 2)
-  let statusGenapGanjil = (num % 2 === 0) ? "Genap" : "Ganjil";
+// for (let i = 0; i < angka.length; i++) {
+//   let num = angka[i];  
+//   // 1. Cek Genap atau Ganjil menggunakan modulus (% 2)
+//   let statusGenapGanjil = (num % 2 === 0) ? "Genap" : "Ganjil";
 
-  // 2. Cek apakah angka lebih besar/sama dengan 10 atau kurang dari 10
-  let statusPembanding = (num >= 10) ? ">= 10" : "< 10";  
-  // 3. Cetak hasil sesuai format
-  console.log(`${num} - ${statusGenapGanjil} - ${statusPembanding}`);
+//   // 2. Cek apakah angka lebih besar/sama dengan 10 atau kurang dari 10
+//   let statusPembanding = (num >= 10) ? ">= 10" : "< 10";  
+//   // 3. Cetak hasil sesuai format
+//   console.log(`${num} - ${statusGenapGanjil} - ${statusPembanding}`);
+// }
+
+
+for (let i = 0; i <= 11; i++) {
+  console.log(i);
 }
+
+
 
